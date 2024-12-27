@@ -17,3 +17,17 @@ Setup Instructions
         python app.py
  - Open your browser and visit http://127.0.0.1:5000.
 
+File Structue : 
+    project/
+    │
+    ├── templates/
+    │   └── index.html        # HTML for the web interface
+    ├── selenium_script.py     # Selenium script to scrape Twitter
+    ├── app.py                 # Flask backend
+    ├── requirements.txt       # Python dependencies
+    └── README.md              # Project documentation
+
+How It Works
+     1.Trigger Script: Click the button on the HTML page to run the Selenium script.
+     2.Scrape Data: The script logs into Twitter, fetches trending topics, and stores the data in MongoDB.
+     3.Display Results: The HTML page displays the scraped data, along with the IP address used and a JSON extract of the MongoDB record.
