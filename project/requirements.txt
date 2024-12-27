@@ -1,0 +1,4 @@
+- Python 3.x
+- MongoDB (local or cloud)
+- Google Chrome and ChromeDriver
+- ProxyMesh account for IP rotation
