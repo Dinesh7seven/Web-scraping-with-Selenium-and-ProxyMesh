@@ -1,6 +1,5 @@
 # Web-scraping-with-Selenium-and-ProxyMesh
 
-This is a complex but interesting project! It combines web automation, proxy handling, data storage, and front-end development. Here's the approach:
 Steps to Implement
 1. Selenium Script to Fetch Twitter Trends
 Automate login to Twitter.
